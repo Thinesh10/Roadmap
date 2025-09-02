@@ -14,3 +14,9 @@ cc_binary(
 	copts=["-std=c++20"],
 )
 
+cc_binary(
+	name="day5",
+	srcs=["day5.cpp"],
+	copts=["-std=c++20"],
+)
+
