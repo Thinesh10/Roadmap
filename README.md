@@ -1,2 +1,2 @@
 # Roadmap
-Repository for my C++ journey. Includes projects, exercises, blog posts and notes.
+Repository for my C++ journey. Includes projects, blog posts and notes.
