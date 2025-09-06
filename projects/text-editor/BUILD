@@ -8,4 +8,4 @@ cc_binary(
 	name="text-editor",
 	srcs=["main.cpp"],
 	deps = [":src-library"],
-)	
+)

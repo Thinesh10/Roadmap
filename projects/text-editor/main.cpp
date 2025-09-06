@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main() {
-	std::cout << "text-editor!" << std::endl;
+	std::cout << "Text Editor!" << std::endl;
 	return 0;
 }
