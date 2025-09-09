@@ -5,3 +5,7 @@
   4. Median of Two Sorted Arrays. 
       - std::ranges::sort is inplace
       - consider binary search on both vectors (moving cut)
+
+09 Sep 2025:
+  5. Longest Palindromic Substring
+      - Use 2D table, use previously computed palindromes to expand on. 
