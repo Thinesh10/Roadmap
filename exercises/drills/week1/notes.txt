@@ -1,0 +1,14 @@
+constexpr: move evaluation to compile time
+
+noexcept: guarantees not to throw an exception. Unlocks compiler benefits when guaranteeing not to throw. e.g. using move instead of copy.
+
+explicit: prevents implicit conversions from object to smart pointer type leading to UB, double delete. It does implicit conversions for the convenience of not having to explicitly cast on assignment.
+
+move and copy assignment operator: return reference to assigned to object to allow for chaining and avoiding extra copying.
+const functions: guarantee to compiler that the function will not modify the object. Const objects can call only const methods.
+
+release: give up ownership of resource without deleting it.
+
+reset: replace currently owned resource with a new one.
+
+bool operator: noexcept, explicit and const to prevent implicit conversions, does not throw and allows const objects to use method.
