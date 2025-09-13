@@ -9,3 +9,7 @@
 09 Sep 2025:
   5. Longest Palindromic Substring
       - Use 2D table, use previously computed palindromes to expand on. 
+
+13 Sep 2025:
+  6. Zigzag conversion
+	  - std::ranges::views::filter(lambda) : newly come across to filter out selected data based on lambda
