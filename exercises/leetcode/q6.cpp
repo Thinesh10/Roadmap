@@ -4,7 +4,7 @@
 class Solution {
 public:
     string convert(string s, int numRows) {
-        if (numRows == 1) return s;
+        if ((numRows == 1) || (s.size() <= numRows)) return s;
 
         std::vector<std::string> v(numRows);
 
@@ -27,11 +27,9 @@ public:
         }
 
         std::string ret;
-        auto retIndex = 0;
-        
-        for (auto i = 0; i < numRows; ++i)
+        for (const auto& st: v)
         {
-            ret += v[i];
+            ret += st;
         }
 
         return ret;
