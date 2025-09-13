@@ -1,0 +1,7 @@
+is_trivially_copyable_v: with no potential overlapping subobjects are the only ones that are can safely use memcpy
+
+std::memcpy : works on bytes (target start, source start, size in bytes)
+
+std::ranges::move : (source start iter, source end iter, target start iter)
+
+implement both const and non const for [] operator: standard for std::array and std::vector implementations to allow for both read only and const returns

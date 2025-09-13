@@ -1,0 +1,11 @@
+08 Sep 2025:
+  1. Return indices of two numbers that add up to target sum.
+  2. Sum of two numbers in linked list format.
+  3. Longest substring without repeated letters.
+  4. Median of Two Sorted Arrays. 
+      - std::ranges::sort is inplace
+      - consider binary search on both vectors (moving cut)
+
+09 Sep 2025:
+  5. Longest Palindromic Substring
+      - Use 2D table, use previously computed palindromes to expand on. 
