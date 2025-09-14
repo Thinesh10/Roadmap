@@ -7,5 +7,8 @@ cc_library(
 cc_binary(
 	name="text-editor",
 	srcs=["main.cpp"],
-	deps = [":src-library"],
+	deps = [
+		":src-library",
+		":text-editor-lib"
+	],
 )
