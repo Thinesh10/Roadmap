@@ -1,0 +1,10 @@
+CCC = C++ Crash Course
+TC = Tour of C++
+
+01/09/2025
+  - CCC: C1
+  - TC : C1
+15/09/2025 
+  - CCC: C2
+  - CCC: C3
+  - TC: C2
