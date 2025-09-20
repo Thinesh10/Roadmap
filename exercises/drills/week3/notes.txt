@@ -1,0 +1,27 @@
+use std::filesystem for working with files and directories
+
+std::unique_ptr<T[], deleter>: can provide class / struct deleter to unique_ptr class
+
+[[nodiscard]] tells compiler to issue warning if return value is ignored
+
+std::fclose() for closing FILE*
+
+brace initialisation is usually preffered to avoid narrowing conversions
+
+std::fopen(const char* file, const char* mode)
+
+modern practice for constructors is to accept by value and std::move() a string to transfer ownership.
+allows flexibility between passing in lvalues and rvalues instead of const str& or str&&
+
+noexcept can't be used when functions use std::string constructors or if function has "new" which may throw std::bad_alloc
+can't make derived class method noexcept if base can throw
+usually move constructors are noexcept
+
+std::chrono::steady_clock is monatomic so it is not affected by system time. 
+std::chrono::steady_clock::time_point = std::chrono::steady_clock::now()
+std::chrono::duration_cast converts from one unit to another
+
+allow implicit conversion if std::string is a param because string literals convert to std::string implicitly
+
+always make destructors noexcept because otherwise it may throw during stack unwinding which will call std::terminate()
+unpredictable crashes, resources not cleaned up properly
