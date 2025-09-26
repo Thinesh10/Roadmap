@@ -17,3 +17,10 @@
 25 Sep 2025:
   7. Reverse integer
 	  - mod of negative number is same as positive
+
+26 Sep 2025:
+  8: String to integer (atoi)
+	  - std::ranges::find_if_not
+	  - std::from_chars (handles leading negative) returns error e.g. std::errc::result_out_of_range
+	  - if std::string_view can use s.remove_prefix(i) 
+	  - static_cast char to unsigned char before using std::isdigit to avoid UB
