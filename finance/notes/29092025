@@ -1,0 +1,31 @@
+If running a business:
+  - income
+  - expenses
+  - assets
+  - liabilities 
+  - cashflow
+
+"cash burn"
+
+Financial statements:
+  - income statement: revenue 
+      - cost of sales = gross profit - operating costs = net profit - tax - NPAT (net profit after tax)
+      - EBITDA - earnings before interest tax depreciation amortisation
+          - remove DA because not cash (A is D for non physical assets e.g. software)
+          - remove IT because doesn't really tell you how profitable your business is
+      
+  - balance shee / statement of financial position:
+          - assets: receivables, cash, PPE, intangible assets, goodwill
+          - liabilities: payables, debt, provisions (any expected outflow), deferred revenue
+              - expenses are things you incur during a specific period of time, liabilities are things you expect to incur in the future
+          - equity: difference between assets and liabilities
+            - revenue / income 
+            - expenses
+            - capital
+            - CLI = AE (CLI up credit and other options)
+    
+  - cashflow statement - how much cash you've generated / cost you over the year:
+    - operating: operations of the business
+    - investing: buying / selling assets
+    - financing: how the company is financed (interest, cash)
+
